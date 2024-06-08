@@ -10,6 +10,14 @@ h2 {
   margin-top: 0px;
 }
 
+.inicio {
+  color: black;
+  text-decoration: none;
+  border: 1px solid #103;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .comprar {
   background: #a8f;
   color: #103;
@@ -28,6 +36,7 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   gap: 20px;
+  justify-content: center;
 }
