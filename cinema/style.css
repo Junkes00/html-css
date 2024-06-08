@@ -6,13 +6,17 @@
   color: darkblue;
 }
 
-a {
+.inicio {
   color: black;
   text-decoration: none;
+  border: 1px solid #103;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 h2 a {
   color: seagreen;
+  text-decoration: none;
 }
 
 p {
